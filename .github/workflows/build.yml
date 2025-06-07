@@ -1,0 +1,8 @@
+name: Simple local
+on: push
+jobs:
+  first-job:
+    runs-on: windows-latest
+    steps:
+      - name: Diga oi
+        run: echo 'Hello World!'
